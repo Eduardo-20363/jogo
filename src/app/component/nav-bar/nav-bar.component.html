@@ -1,6 +1,9 @@
 <nav class="navbar navbar-dark bg-dark nav">
-<a [routerLink]="['/home']" routerLinkActive="router-link-active" class="link" >Home</a>
-<a [routerLink]="['/registo']" routerLinkActive="router-link-active" class="link" >Registo</a>
-<a [routerLink]="['/login']" routerLinkActive="router-link-active" class="link">Login</a>
-<a [routerLink]="['/cidade']" routerLinkActive="router-link-active" class="link">City</a>
-<a [routerLink]="['/nova-personagem']" routerLinkActive="router-link-active" class="link">Create New</a>
+    <a [routerLink]="['/home']" routerLinkActive="router-link-active" class="link">Home</a>
+    <a [routerLink]="['/cidade']" routerLinkActive="router-link-active" class="link">City</a>
+    <div *ngIf="logado == false">
+        <a [routerLink]="['/registo']" routerLinkActive="router-link-active" class="link">Registo</a>
+        <a [routerLink]="['/login']" routerLinkActive="router-link-active" class="link">Login</a>
+        <a [routerLink]="['/nova-personagem']" routerLinkActive="router-link-active" class="link">Create New</a>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="logOut()" *ngIf="logado == true">LogOut</button>

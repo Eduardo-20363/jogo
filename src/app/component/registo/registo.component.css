@@ -1,5 +1,4 @@
-
-.registo{
+.registo {
   margin-top: 12%;
   text-align: center;
   width: 250px;
@@ -8,11 +7,6 @@
   margin-right: 43vw;
 }
 
-.registar{
-  background-color: brown;
-  color: white;
-}
-
-p{
+p {
   font-size: 40px;
 }

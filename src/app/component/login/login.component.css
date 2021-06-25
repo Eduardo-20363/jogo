@@ -1,4 +1,4 @@
-.login{
+.login {
   margin-top: 12%;
   text-align: center;
   width: 250px;
@@ -7,11 +7,6 @@
   margin-right: 43vw;
 }
 
-p{
+p {
   font-size: 40px;
-}
-
-.log{
-  background-color: brown;
-  color: white;
 }

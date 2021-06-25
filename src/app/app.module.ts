@@ -13,6 +13,7 @@ import { RegistoComponent } from './component/registo/registo.component';
 import { CidadeComponent } from './component/cidade/cidade.component';
 import { NovaArmaComponent } from './component/nova-arma/nova-arma.component';
 import { NovaPersonagemComponent } from './component/nova-personagem/nova-personagem.component';
+import { Four0fourComponent } from './component/four0four/four0four.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { NovaPersonagemComponent } from './component/nova-personagem/nova-person
     CidadeComponent,
     NovaArmaComponent,
     NovaPersonagemComponent,
+    Four0fourComponent,
   ],
   imports: [
     BrowserModule,

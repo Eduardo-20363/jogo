@@ -1,4 +1,23 @@
-.cidade{
-  width: 1535px;
-  height: 680px;
+.cidade {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../assets/9cf162def2a4c4f0d656b227961c0d4d.jpg");
+}
+
+.batalha {
+  position: absolute;
+  margin-top: 356px;
+  margin-left: 10px;
+}
+
+.treinar {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 664px;
+}
+
+.armas {
+  position: absolute;
+  margin-left: 2000px;
+  margin-top: 664px;
 }

@@ -1,7 +1,6 @@
-<div class="login">
+<div class="font-weight-bold login">
   <p>LOGIN</p>
-    <input type="text" placeholder="Username" name="username"><br><br>
-    <input type="text" placeholder="Password" name="psw"><br><br><br>
-    <button class="log" type="submit">Login</button>
+  <input #username class="form-control" type="text" placeholder="Username" name="username"><br><br>
+  <input #password class="form-control" type="text" placeholder="Password" name="psw"><br><br><br>
+  <button (click)="login(username.value, password.value)" class="btn btn-danger" type="submit">Login</button>
 </div>
-

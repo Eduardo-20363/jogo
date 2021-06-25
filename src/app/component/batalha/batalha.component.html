@@ -1,5 +1,30 @@
 <div class="mato">
-<img src="../../../assets/antiga-arena-romana-para-luta-de-gladiadores_107791-4455.jpg" alt="" class="mato">
-<img src="../../../assets/careca2.png" alt="" class="ca2">
-<img src="../../../assets/careca1.png" alt="" class="ca1">
+    <div class="ca2">
+        <div class="textos">
+            <p class="text-white font-weight-bold">{{player.Nome}}</p>
+            <p class="text-white font-weight-bold"><img src="../../../assets/heart.png" height="25px">{{player.Vida}}
+            </p>
+            <p class="text-white font-weight-bold"><img src="../../../assets/brain.png" height="25px">{{player.Int}}</p>
+            <p class="text-white font-weight-bold"><img src="../../../assets/sword.png" height="25px">{{player.Atk}}</p>
+        </div>
+
+        <img src="../../../assets/careca2.png" alt="">
+    </div>
+    <div class="ca1">
+        <div class="textos">
+            <p class="text-white font-weight-bold">{{oponente.Nome}}</p>
+            <p class="text-white font-weight-bold"><img src="../../../assets/heart.png" height="25px">{{oponente.Vida}}
+            </p>
+            <p class="text-white font-weight-bold"><img src="../../../assets/brain.png" height="25px">{{oponente.Int}}
+            </p>
+            <p class="text-white font-weight-bold"><img src="../../../assets/sword.png" height="25px">{{oponente.Atk}}
+            </p>
+        </div>
+        <img src="../../../assets/careca1.png" height="200px">
+    </div>
+
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <button type="button" (click)="fight()" class="btn btn-danger font-weight-bold">Fight</button>
+    </div>
+
 </div>

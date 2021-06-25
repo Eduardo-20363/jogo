@@ -1,18 +1,27 @@
-.mato{
+.mato {
   width: 100vw;
   height: 94.3vh;
+  background-image: url("../../../assets/antiga-arena-romana-para-luta-de-gladiadores_107791-4455.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.ca2{
+.ca2 {
+  position: absolute;
+  bottom: 200px;
   width: 240px;
   height: 200px;
   margin-left: 360px;
-  margin-top: -43vh;
 }
 
-.ca1{
+.textos {
+  background-color: rgba(124, 124, 124, 0.199);
+}
+
+.ca1 {
+  position: absolute;
+  bottom: 200px;
   width: 240px;
   height: 200px;
-  margin-left: 360px;
-  margin-top: -43vh;
+  right: 300px;
 }

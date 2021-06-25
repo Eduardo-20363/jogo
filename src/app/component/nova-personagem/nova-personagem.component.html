@@ -1,11 +1,11 @@
 <div class="novo">
   <p>NEW GUY</p>
-    <input type="text" placeholder="Nome" name="Nome"><br><br>
-    <input type="text" placeholder="Atk" name="Atk"><br><br>
-    <input type="text" placeholder="isMonster" name="isMonster"><br><br>
-    <input type="text" placeholder="Int" name="Int"><br><br>
-    <input type="text" placeholder="Vida" name="Vida"><br><br>
-    <input type="text" placeholder="Username" name="username"><br><br>
-    <input type="text" placeholder="Password" name="psw"><br><br><br>
-    <button class="criar" type="submit">Create</button>
+  <input #nome type="text" class="form-control" placeholder="Nome" name="Nome"><br><br>
+  <input #ataque type="text" class="form-control" placeholder="Atk" name="Atk"><br><br>
+  <input #inteligencia type="text" class="form-control" placeholder="Int" name="Int"><br><br>
+  <input #vida type="text" class="form-control" placeholder="Vida" name="Vida"><br><br>
+  <input #username type="text" class="form-control" placeholder="Username" name="username"><br><br>
+  <input #password type="text" class="form-control" placeholder="Password" name="psw"><br><br><br>
+  <button (click)="createChar(nome.value, ataque.value, inteligencia.value, vida.value, username.value, password.value)"
+    class="btn btn-danger" type="submit">Create</button>
 </div>

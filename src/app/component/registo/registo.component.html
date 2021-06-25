@@ -1,8 +1,9 @@
-<div class="registo">
+<div class="criarLoja">
   <p>REGISTA-TE</p>
-    <input type="text" placeholder="Username" name="username"><br><br>
-    <input type="text" placeholder="apelido" name="apelido"><br><br>
-    <input type="text" placeholder="email" name="email"><br><br>
-    <input type="text" placeholder="Password" name="psw"><br><br><br>
-    <button class="registar" type="submit">Registar</button>
+  <input #username type="text" class="form-control" placeholder="Username" name="username"><br><br>
+  <input #email type="text" class="form-control" placeholder="email" name="email"><br><br>
+  <input #pass type="text" class="form-control" placeholder="Password" name="psw"><br><br><br>
+  <input #passR type="text" class="form-control" placeholder="Repetir Password" name="rp"><br><br>
+  <button (click)="signIn(username.value, pass.value, passR.value)" class="btn btn-danger"
+    type="submit">Registar</button>
 </div>

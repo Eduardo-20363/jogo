@@ -1,1 +1,12 @@
-<p>nova-arma works!</p>
+<div class="criarLoja">
+    <div class="contentor">
+        <p>CRIAR ARMA</p>
+        <input #name type="text" class="form-control" placeholder="Name"><br><br>
+        <input #atk type="text" class="form-control" placeholder="ataque"><br><br>
+        <input #durabilidade type="text" class="form-control" placeholder="durabilidade"><br><br><br>
+        <input #tipoArma type="text" class="form-control" placeholder="tipo de arma"><br><br>
+        <input #vida type="text" class="form-control" placeholder="vida"><br><br>
+        <button (click)="criarArma(name.value, atk.value, durabilidade.value, tipoArma.value, vida.value)"
+            class="btn btn-danger" type="submit">Criar Arma</button>
+    </div>
+</div>
