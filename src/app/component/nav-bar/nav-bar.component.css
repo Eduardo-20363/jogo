@@ -1,0 +1,11 @@
+
+.nav-Bar{
+  font-size: 20px;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
